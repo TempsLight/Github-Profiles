@@ -34,11 +34,11 @@ function createUserCard(user){
             <h2>${user.name}</h2>
             <p> ${user.bio}</p>
             <ul>
-                <li> ${user.followers} <strong> Followers </strong>
+                <li style=padding:5px>${user.followers} <strong> Followers  </strong>
                 </li>
-                <li> ${user.following} <strong> Following </strong>
+                <li style=padding:5px>${user.following} <strong> Following  </strong>
                 </li>
-                <li> ${user.public_repos} <strong> Repos </strong>
+                <li style=padding:5px>${user.public_repos} <strong> Repos  </strong>
                 </li>
             </ul>
             
